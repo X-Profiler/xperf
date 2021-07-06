@@ -1,0 +1,28 @@
+{
+  "name": "xperf",
+  "version": "0.0.0",
+  "description": "local performance tool for nodejs",
+  "main": "bin/xperf.js",
+  "bin": {
+    "xperf": "bin/xperf.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "lint": "eslint --fix bin/**/*.js lib/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/X-Profiler/xperf.git"
+  },
+  "author": "hyj1991 <yeekwanvong@gmail.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/X-Profiler/xperf/issues"
+  },
+  "homepage": "https://github.com/X-Profiler/xperf#readme",
+  "devDependencies": {
+    "eslint": "^7.30.0"
+  }
+}
