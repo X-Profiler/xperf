@@ -10,7 +10,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "lint": "eslint --fix bin/**/*.js lib/**/*.js"
+    "lint": "eslint bin/**/*.js lib/**/*.js"
   },
   "repository": {
     "type": "git",
